@@ -1,2 +1,80 @@
 
 /* Your CSS Code here. */
+body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #eee;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #c89b3c;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #c89b3c;
+        }
+
+        nav {
+            background-color: #1c1c1c;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #c89b3c;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        summary, section, aside {
+            padding: 20px;
+            margin: 15px;
+            background-color: #1e1e1e;
+            border-radius: 6px;
+        }
+
+        section h2 {
+            color: #c89b3c;
+            margin-top: 0;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        blockquote {
+            font-style: italic;
+            border-left: 4px solid #c89b3c;
+            padding-left: 15px;
+            color: #ddd;
+        }
+
+        aside {
+            background-color: #2a2a2a;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #000;
+            text-align: center;
+            padding: 15px;
+            border-top: 2px solid #c89b3c;
+        }
+
+        footer p {
+            margin: 0;
+            color: #c89b3c;
+            font-weight: bold;
+        }
